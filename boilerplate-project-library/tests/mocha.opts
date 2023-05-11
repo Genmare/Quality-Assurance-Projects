@@ -1,0 +1,3 @@
+--no-colors
+--exit
+--timeout 120000
