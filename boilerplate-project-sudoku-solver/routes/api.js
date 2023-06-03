@@ -39,7 +39,7 @@ module.exports = function (app) {
       console.log('colResult =', colResult);
       const regResult = solver.checkRegionPlacement(puzzle, rowNum, col, value);
       console.log('regResult =', regResult);
-      // solver.validate(puzzle);
+      
       if(rowResult && colResult && regResult)
         res.json({ valid: true });
       else

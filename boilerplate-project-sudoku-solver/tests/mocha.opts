@@ -1,0 +1,3 @@
+-r jsdom-global/register esm
+--require esm
+--require ignore-styles
